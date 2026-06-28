@@ -22,3 +22,29 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Claude Code / assistentes de IA
+.claude/
+.claude/**
+CLAUDE.md
+.cursor/
+.aider*
+.continue/
+
+# Variáveis de ambiente / segredos
+.env
+.env.*
+!.env.example
+
+# Cache de ferramentas e build
+.cache/
+.temp/
+.tmp/
+coverage/
+*.tsbuildinfo
+.eslintcache
+.vite/
+
+# Sistema operacional
+Thumbs.db
+desktop.ini
