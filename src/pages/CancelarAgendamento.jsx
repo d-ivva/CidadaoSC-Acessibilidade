@@ -102,7 +102,7 @@ export default function CancelarAgendamento({ email = 'seu e-mail', onBack, onNe
             {t('cancelAg.validateIdentity')}
           </p>
           <div className="email-box">
-            <span>{t('cancelAg.codeSentTo')}</span>
+            <span>{t('cancelAg.emailSentTo')}</span>
             <strong>{email}</strong>
           </div>
           <div className="cancel-confirm-actions">

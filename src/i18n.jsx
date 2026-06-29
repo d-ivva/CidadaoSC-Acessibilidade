@@ -39,7 +39,14 @@ const translations = {
     'emissao.card.title': 'Emissão Online',
     'emissao.card.desc': 'Peça sua nova Carteira de Identidade Nacional (CIN)',
     'emissao.consultar.title': 'Consultar pedido',
-    'emissao.consultar.desc': 'Veja como está o andamento do seu pedido de identidade',
+    'emissao.consultar.desc': 'Acompanhe o andamento da sua nova identidade.',
+
+    'consulta.title': 'Autenticação',
+    'consulta.breadcrumb': 'Emissão Online',
+    'consulta.info': 'Digite o número do seu pedido e sua data de nascimento para consultar o andamento da sua nova identidade. Você receberá atualizações também por e-mail.',
+    'consulta.protocolo': 'Número de protocolo',
+    'consulta.nascimento': 'Data de nascimento',
+
     'emissao.modal.title': 'Atenção',
     'emissao.modal.body': 'Por favor, você deve declarar que é maior de 16 anos para continuar com o processo de emissão de identidade.',
 
@@ -51,7 +58,7 @@ const translations = {
     'ag.consultar.desc': 'Consulte seu local de agendamento ou cancele o seu horário.',
 
     // ---------- EMISSÃO CPF ----------
-    'cpf.breadcrumb': 'Pedir nova identidade',
+    'cpf.breadcrumb': 'Emissão Online',
     'cpf.title': 'Autenticação',
     'cpf.label': 'CPF',
     'cpf.placeholder': '000.000.000-00',
@@ -348,6 +355,7 @@ const translations = {
     'a11y.expand': 'Expandir opções avançadas',
     'a11y.collapse': 'Recolher opções avançadas',
     'a11y.moreOptions': 'Mais opções',
+    'a11y.lessOptions': 'Menos opções',
     'a11y.reset': 'Reiniciar configurações de acessibilidade',
     'a11y.resetTitle': 'Reiniciar',
     'a11y.closePanel': 'Fechar painel de acessibilidade',
@@ -428,7 +436,14 @@ const translations = {
     'emissao.card.title': 'Online Issuance',
     'emissao.card.desc': 'Request your new National Identity Card (CIN)',
     'emissao.consultar.title': 'Check request',
-    'emissao.consultar.desc': 'Check the status of your identity request',
+    'emissao.consultar.desc': 'Track the progress of your new ID card.',
+
+    'consulta.title': 'Authentication',
+    'consulta.breadcrumb': 'Online Issuance',
+    'consulta.info': 'Enter your order number and birth date to check the status of your new ID. You will also receive updates by email.',
+    'consulta.protocolo': 'Order number',
+    'consulta.nascimento': 'Birth date',
+
     'emissao.modal.title': 'Attention',
     'emissao.modal.body': 'Please declare that you are over 16 years old to continue with the identity issuance process.',
 
@@ -438,7 +453,7 @@ const translations = {
     'ag.consultar.title': 'Check or cancel',
     'ag.consultar.desc': 'Check your appointment location or cancel your time slot.',
 
-    'cpf.breadcrumb': 'Request new identity',
+    'cpf.breadcrumb': 'Online Issuance',
     'cpf.title': 'Authentication',
     'cpf.label': 'CPF',
     'cpf.placeholder': '000.000.000-00',
@@ -713,6 +728,7 @@ const translations = {
     'a11y.expand': 'Expand advanced options',
     'a11y.collapse': 'Collapse advanced options',
     'a11y.moreOptions': 'More options',
+    'a11y.lessOptions': 'Fewer options',
     'a11y.reset': 'Reset accessibility settings',
     'a11y.resetTitle': 'Reset',
     'a11y.closePanel': 'Close accessibility panel',
@@ -791,7 +807,14 @@ const translations = {
     'emissao.card.title': 'Emisión en línea',
     'emissao.card.desc': 'Solicite su nuevo Documento Nacional de Identidad (CIN)',
     'emissao.consultar.title': 'Consultar solicitud',
-    'emissao.consultar.desc': 'Verifique el estado de su solicitud de identidad',
+    'emissao.consultar.desc': 'Siga el progreso de su nuevo documento de identidad.',
+
+    'consulta.title': 'Autenticación',
+    'consulta.breadcrumb': 'Emisión en línea',
+    'consulta.info': 'Ingrese el número de su pedido y su fecha de nacimiento para consultar el estado de su nueva identidad. También recibirá actualizaciones por correo electrónico.',
+    'consulta.protocolo': 'Número de pedido',
+    'consulta.nascimento': 'Fecha de nacimiento',
+
     'emissao.modal.title': 'Atención',
     'emissao.modal.body': 'Por favor, declare que es mayor de 16 años para continuar con el proceso de emisión de identidad.',
 
@@ -801,7 +824,7 @@ const translations = {
     'ag.consultar.title': 'Consultar o cancelar',
     'ag.consultar.desc': 'Consulte su lugar de cita o cancele su horario.',
 
-    'cpf.breadcrumb': 'Solicitar nueva identidad',
+    'cpf.breadcrumb': 'Emisión en línea',
     'cpf.title': 'Autenticación',
     'cpf.label': 'CPF',
     'cpf.placeholder': '000.000.000-00',
@@ -1090,6 +1113,7 @@ const translations = {
     'a11y.expand': 'Expandir opções avançadas',
     'a11y.collapse': 'Contraer opciones avanzadas',
     'a11y.moreOptions': 'Más opciones',
+    'a11y.lessOptions': 'Menos opciones',
     'a11y.reset': 'Restablecer configuraciones de accesibilidad',
     'a11y.resetTitle': 'Restablecer',
     'a11y.closePanel': 'Cerrar panel de accesibilidad',

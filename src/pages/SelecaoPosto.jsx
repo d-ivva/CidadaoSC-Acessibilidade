@@ -139,7 +139,7 @@ export default function SelecaoPosto({ onBack, onNext }) {
 
         {posto ? (
           <div className="postos">
-            <h3 className="postos-title">{t('selPosto.available')}</h3>
+            <h3 className="postos-title">{t('selPosto.available')}<span className="required">*</span></h3>
             <button
               type="button"
               className={`posto-card ${selecionado?.nome === posto.nome ? 'is-selected' : ''}`}

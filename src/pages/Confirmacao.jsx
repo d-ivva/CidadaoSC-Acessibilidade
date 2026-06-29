@@ -54,7 +54,7 @@ export default function Confirmacao({ requerente, posto, onBack, onNext }) {
 
         <label className="checkbox conf-checkbox">
           <input type="checkbox" checked={acordo} onChange={(e) => setAcordo(e.target.checked)} />
-          <span>{t('conf.agree')}</span>
+          <span>{t('conf.agree')}<span className="required">*</span></span>
         </label>
       </div>
 

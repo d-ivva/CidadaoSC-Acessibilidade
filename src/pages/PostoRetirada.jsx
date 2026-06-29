@@ -131,7 +131,7 @@ export default function PostoRetirada({ onBack, onNext }) {
 
         {cidadeSelecionada ? (
           <div className="postos">
-            <h3 className="postos-title">{t('posto.available')}</h3>
+            <h3 className="postos-title">{t('posto.available')}<span className="required">*</span></h3>
             <button
               type="button"
               className={`posto-card ${postoId === cidadeSelecionada.nome ? 'is-selected' : ''}`}

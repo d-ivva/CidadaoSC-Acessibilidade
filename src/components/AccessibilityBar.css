@@ -321,6 +321,7 @@ html.a11y-theme-dark .app .cal-cell.is-available:hover { background-color: #1e2d
 
 /* Horários */
 html.a11y-theme-dark .app .time-slot { background-color: #23272f; border-color: var(--color-border); color: var(--color-text); }
+html.a11y-theme-dark .app .time-slot.is-selected { background-color: var(--color-green); color: #ffffff; border-color: var(--color-green); }
 html.a11y-theme-dark .app .modal-close { color: var(--color-text-muted); }
 
 /* Resultado de consulta */
@@ -369,6 +370,7 @@ html.a11y-theme-dark .app .modal-cancel { background-color: var(--color-surface)
 html.a11y-theme-dark .app .alert-warn { background-color: #2a2310; color: #d4a72c; }
 html.a11y-theme-dark .app .opt-card { background-color: var(--color-surface); }
 html.a11y-theme-dark .app .opt-card:hover { background-color: #23272f; box-shadow: none; }
+html.a11y-theme-dark .app .email-box { background-color: var(--color-surface); }
 
 /* Botões extras */
 html.a11y-theme-dark .app .btn-cancel-outline { background-color: var(--color-surface); }

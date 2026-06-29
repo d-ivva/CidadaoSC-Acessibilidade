@@ -30,7 +30,7 @@ export default function EmissaoCPF({ onBack, onNext, onForgotCPF }) {
       <div className="flow-body">
         <div className="form-stack">
           <label className="field">
-            <span className="field-label">{t('cpf.label')}</span>
+            <span className="field-label">{t('cpf.label')}<span className="required">*</span></span>
             <input
               type="text"
               className="field-input"

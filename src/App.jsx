@@ -14,6 +14,7 @@ import DataHora from './pages/DataHora'
 import ResumoAgendamento from './pages/ResumoAgendamento'
 import AutenticacaoAgendamento from './pages/AutenticacaoAgendamento'
 import ConsultarAgendamento from './pages/ConsultarAgendamento'
+import ConsultarPedido from './pages/ConsultarPedido'
 import TipoEmissao from './pages/TipoEmissao'
 import Confirmacao from './pages/Confirmacao'
 import SolicitacaoFinalizada from './pages/SolicitacaoFinalizada'
@@ -37,6 +38,7 @@ const VIEWS = {
   FINALIZADA: 'finalizada',
   CANCELAR_EMISSAO: 'cancelar-emissao',
   CANCELADA: 'cancelada',
+  CONSULTA_PEDIDO: 'consulta-pedido',
   // Agendamento presencial — novo agendamento
   AG_POSTO: 'ag-posto',
   AG_DATA: 'ag-data',
@@ -141,7 +143,7 @@ function EmissaoHome({ onStart }) {
           checked={declarado}
           onChange={(e) => setDeclarado(e.target.checked)}
         />
-        <span>{t('emissao.checkbox')}</span>
+        <span>{t('emissao.checkbox')}<span className="required">*</span></span>
       </label>
 
       <div className="card-grid">
@@ -206,6 +208,7 @@ function App() {
 
   const handleStart = (action) => {
     if (action === 'emissao') setView(VIEWS.CPF)
+    if (action === 'consultar') setView(VIEWS.CONSULTA_PEDIDO)
   }
 
   const renderView = () => {
@@ -388,6 +391,16 @@ function App() {
               setView(VIEWS.AG_POSTO)
             }}
             onEmissao={() => setView(VIEWS.CPF)}
+          />
+        )
+      case VIEWS.CONSULTA_PEDIDO:
+        return (
+          <ConsultarPedido
+            onBack={goHome}
+            onNext={() => {
+              // placeholder para próxima etapa de consulta de pedido (mocked to home for now)
+              goHome()
+            }}
           />
         )
       default:

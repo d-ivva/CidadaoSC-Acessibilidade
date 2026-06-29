@@ -443,7 +443,7 @@ export default function AccessibilityBar() {
               <span className="a11y-action-icon" aria-hidden="true">
                 <span className={`a11y-chev ${advanced ? 'is-up' : ''}`}>{I.chevronDown}</span>
               </span>
-              {t('a11y.moreOptions')}
+              {advanced ? t('a11y.lessOptions') : t('a11y.moreOptions')}
             </button>
             <button type="button" className="a11y-action" aria-label={t('a11y.reset')} onClick={reset}>
               <span className="a11y-action-icon" aria-hidden="true">{I.reset}</span>
