@@ -214,11 +214,3 @@ Seleção de posto (cidade/CEP) → Data e hora (calendário + horários, múlti
 Projeto **educacional / demonstrativo**, sem vínculo oficial com o Governo de Santa Catarina
 ou a Polícia Científica. Logotipos e o widget VLibras pertencem aos seus respectivos
 detentores e são usados apenas para fidelidade visual.
-
-<div align="center">
-
-<br/>
-
-Feito com 💚 em Santa Catarina
-
-</div>
